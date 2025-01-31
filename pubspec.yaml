@@ -1,0 +1,100 @@
+name: fitness_app_nodejs
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  fl_chart: ^0.40.0
+  table_calendar: ^3.0.6
+  get: ^4.6.5
+  animated_text_kit: ^4.2.0
+  animations: ^2.0.6
+  http: ^1.2.2
+  video_player: ^2.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset Configuration
+  assets:
+    - lib/assets/images/coach.png
+    - lib/assets/images/background.jpg
+    - lib/assets/images/login.png
+    - lib/assets/images/signup.png
+    - lib/assets/images/male.png
+    - lib/assets/images/female.png
+    - lib/assets/images/looseweight.png
+    - lib/assets/images/buildmuscel.png
+    - lib/assets/images/keepfit.png
+    - lib/assets/images/breath.png
+    - lib/assets/images/pullup.png
+    - lib/assets/images/situp.png
+    - lib/assets/images/pushups.png
+    - lib/assets/images/bicepsCurl.png
+    - lib/assets/images/leg.png
+    - lib/assets/images/plank.png
+    - lib/assets/images/strength.png
+    - lib/assets/images/yoga.png
+    - lib/assets/images/hiit.png
+    - lib/assets/images/cardio.png
+    - lib/assets/images/core.png
+    - lib/assets/images/stretch.png
+    - lib/assets/images/pushupchallenge.png
+    - lib/assets/images/absworkout.png
+    - lib/assets/images/chest.png
+    - lib/assets/images/arm.png
+    - lib/assets/images/legwork.png
+    - lib/assets/images/shoulder.png
+    - lib/assets/images/cardioo.png
+    - lib/assets/images/boxing.png
+    - lib/assets/images/back.png
+    - lib/assets/images/yoga.png
+    - lib/assets/images/stretching.png
+    - lib/assets/images/Jumping_Jacks.png
+    - lib/assets/images/burbees.png
+    - lib/assets/images/high_knees.png
+    - lib/assets/images/crunches.png
+    - lib/assets/images/chest_press.png
+    - lib/assets/images/squats.png
+    - lib/assets/images/curl.png
+    - lib/assets/images/diamond.png
+    - lib/assets/images/front.png
+    - lib/assets/images/leg_raises.png
+    - lib/assets/images/leg_press.png
+    - lib/assets/images/leteral.png
+    - lib/assets/images/lunges.png
+    - lib/assets/images/over_head.png
+    - lib/assets/images/shoulder_press.png
+    - lib/assets/images/tricep.png
+    - lib/assets/images/stretching.png
+    - lib/assets/images/burbees.png
+    - lib/assets/images/high_knees.png
+    - lib/assets/images/pull_down.png
+    - lib/assets/images/seated_rows.png
+    - lib/assets/images/deadlift.png
+    - lib/assets/images/worier_pose.png
+    - lib/assets/images/dog.png
+    - lib/assets/images/tree_pose.png
+    - lib/assets/images/hooks.png
+    - lib/assets/images/jab.png
+    - lib/assets/images/upper_cut.png
+    - lib/assets/images/harmstring.png
+    - lib/assets/images/quad.png
+    - lib/assets/images/shoulder_stretch.png
+
